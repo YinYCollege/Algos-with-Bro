@@ -1,5 +1,3 @@
-import java.util.Arrays;
-
 public class Binary_Search {
 
     public static void main(String[] args) {
@@ -11,7 +9,7 @@ public class Binary_Search {
         // runtime: O(log(n))
 
         int array[] = new int[1000000];
-        int target = 200000;
+        int target = -2;
         for (int i = 0; i < array.length; i++) { // populates array
             array[i] = i;
         }
@@ -30,7 +28,7 @@ public class Binary_Search {
         int low = 0; // low for 0-indexed array for first value in SORTED array
         int high = array.length - 1; // -1 because 0-indexed array
 
-        while (low <= high) {
+        while (low < high) {
             int middle = low + (high - low) / 2;
             int value = array[middle];
 
