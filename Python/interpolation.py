@@ -1,4 +1,4 @@
-# what is interpolation sort?: i am pretty sure interpolation sort was just a "better" binary sort, meaning that it will also only work on SORTED arrays
+# what is interpolation search?: i am pretty sure interpolation sort was just a "better" binary sort, meaning that it will also only work on SORTED arrays
 # i think the difference from binary search is that we are making a "guess," a probe, based off of a formula (of which i do not understand), and considering 
 # it works well with uniformly distributed data it is a formula that was derived with that data set in mind
 # formula: low + (high - low) * (target - array[low]) / (array[high] - array[low])
